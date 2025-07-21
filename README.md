@@ -57,19 +57,13 @@ go mod download
 Create a `.env` file in the root directory with your configuration:
 
 ```env
-# Database Configuration
-MONGODB_URI=mongodb://localhost:27017
-POSTGRES_URI=postgres://user:password@localhost:5432/dbname
-REDIS_URI=redis://localhost:6379
+# Hashicorp Vault Configuration
+KEY_STORE_HOST     =https://vault.rivalz.ai
+KEY_STORE_PORT     =8200
 
-# Kafka Configuration
-KAFKA_BROKERS=localhost:9092
-
-# JWT Configuration
-JWT_SECRET=your-secret-key
-
-# Server Configuration
-PORT=30000
+KEY_STORE_USER     =
+KEY_STORE_PASSWORD =
+KEY_STORE_DIR      =
 ```
 
 ### 4. Run the Application

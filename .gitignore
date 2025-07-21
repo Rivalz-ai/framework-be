@@ -2,7 +2,6 @@
 .idea
 venv
 .DS_Store
-.env
 app
 .vscode
 __debug*
