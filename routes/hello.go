@@ -4,6 +4,7 @@ import (
 	"github.com/Rivalz-ai/framework-be/middleware"
 
 	//log "github.com/sirupsen/logrus"
+	"github.com/Rivalz-ai/framework-be/modules/hello/handler"
 	"github.com/Rivalz-ai/framework-be/server"
 )
 

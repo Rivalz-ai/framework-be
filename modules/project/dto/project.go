@@ -5,6 +5,7 @@ import (
 
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	//"github.com/ethereum/go-ethereum/common"
+	nodeDto "github.com/Rivalz-ai/framework-be/modules/node/dto"
 )
 
 /*

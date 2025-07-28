@@ -23,7 +23,7 @@ import (
 	//userdto "github.com/Rivalz-ai/framework-be/modules/user/dto"
 	"time"
 
-	projectDto "github.com/Rivalz-ai/framework-be"
+	projectDto "github.com/Rivalz-ai/framework-be/modules/project/dto"
 	xService "github.com/Rivalz-ai/framework-be/modules/x/service"
 	"go.mongodb.org/mongo-driver/bson"
 
